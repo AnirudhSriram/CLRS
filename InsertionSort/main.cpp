@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-
+using namespace std  ;
 int main(int argc, const char * argv[]) {
     int n = 5 ;
-    int a = [5,1,3,2,4] ;
+    int a[] = {5,4,2,3,1} ;
     for(int i = 0 ; i<n;i++){
         int key = a[i] ;
         int j = i-1 ;
@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         a[j+1] = key ;
     }
     for(int i=0;i<n;i++){
-        printf("%d",a[i]) ;
+        cout <<a[i] ;
     }
     
     return 0;

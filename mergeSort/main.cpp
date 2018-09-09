@@ -11,9 +11,7 @@ using namespace std ;
 
 void merge(int arr[], int l, int m, int r)
 {
-    for(int i=0;i<7;i++){
-        cout << arr[i] ;
-    }
+    
     int i, j, k;
     int n1 = m - l + 1;
     int n2 =  r - m;
